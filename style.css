@@ -7,7 +7,7 @@
 }
 
 h1{
-    font-family: 50px;
+    font-size: 50px;
     line-height: 64px;
     color: #222;
 }
@@ -90,3 +90,33 @@ body{
     bottom: -4px;
     left: 20px;
 }
+
+#hero{
+    background-image: url("img/hero4.png");
+    height: 90vh;
+    width: 100%;
+    background-size: cover;
+    background-position: top 25% rigth 0;
+    padding: 0 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+#hero h4{
+    padding-bottom: 15px;
+}
+
+#hero h1{
+    color: #088178;
+    font-size:50px
+}
+
+#hero button{
+    background-image: url("img/button.png");
+    background-color: transparent;
+    color: #088178;
+    border: 0;
+}
+
